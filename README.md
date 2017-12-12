@@ -1,6 +1,6 @@
 ascii arted code in c
 
-program result :
+christmas_code.cpp result :
 ```
     *       *             *          *      *          *       *              *  *           *      
                                                                                                     
@@ -23,3 +23,5 @@ program result :
         *     *          *       *              *    *          *            *        *   
 ```
 with JingleBell song 
+
+christmas_code.cpp <- decode.py + beep_coder.cpp
