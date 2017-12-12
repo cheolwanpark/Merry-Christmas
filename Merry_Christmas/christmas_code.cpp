@@ -36,7 +36,7 @@ mu [220] =      {0,};char sp=0; char ef = 0;              int sf = 1
 -30)*50;}}void             m()           {for(int i=0; i<110; ++i) {
 if(0 != mu[i]               )             Beep ( mu[ i ], mu[110+i]);
 this_thread::                             sleep_for(chrono::milliseconds
-(mu[110+i]));                             }ef =     1;}     void go()
+(mu[110+i]/2)                            );}ef=     1;}     void go()
 { int  oi = 0,                           ti= 0       ;       for(int
 i=0; i<270; ++i                        ){while               (code[
 i]-35) { o[ oi ]=                    32;--code[             i];++oi
