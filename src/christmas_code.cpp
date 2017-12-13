@@ -35,7 +35,7 @@ mu [220] =      {0,};char sp=0; char ef = 0;              int sf = 1
 -30)*50;}}void             m()           {for(int i=0; i<110; ++i) {
 if(0 != mu[i]               )             Beep ( mu[ i ], mu[110+i]);
 this_thread::                             sleep_for(chrono::milliseconds
-(mu[110+i]/2)                            );}ef=     1;}     void go()
+(mu[110+i])                              );}ef=     1;}     void go()
 { int  oi = 0,                           ti= 0       ;       for(int
 i=0; i<270; ++i                        ){while               (code[
 i]-35) { o[ oi ]=                    32;--code[             i];++oi
@@ -50,4 +50,3 @@ s [ sp*2]=i     *10 + r%8 + 1;s[sp*2+1] = 1;++sp;}sf = 0;} else {sf
 = 1;} system( "cls" ); puts(p); this_thread :: sleep_for ( chrono::
 milliseconds(1000));}}int main(){go();gm();thread ut(u);thread mt(m)
 ;ut.join();mt.join();}                          // Merry Christmas~~
-

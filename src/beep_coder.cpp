@@ -52,7 +52,7 @@ void decode() {
         else
             decoded[i] = (data[i]-33)*4+294;
     }
-    
+
     for(int i=0; i<chunksize; ++i) {
         decoded[chunksize+i] = (data[chunksize+i]-30)*50;
     }
@@ -63,7 +63,7 @@ void m() {
         if(0 != decoded[i]) {
             Beep(decoded[i], decoded[110+i]);
         }
-        std::this_thread::sleep_for(std::chrono::milliseconds(decoded[110+i]*10));
+        std::this_thread::sleep_for(std::chrono::milliseconds(decoded[110+i]));
     }
 }
 
@@ -73,11 +73,3 @@ int main() {
     m();
     return 0;
 }
-
-
-
-
-
-
-
-
