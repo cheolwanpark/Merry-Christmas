@@ -42,7 +42,7 @@ for(int i=0; i<                       270; ++i       )       {while
 i]; ++oi; } if (33==               code[270+ti]){o        [oi] = 10
 ;++oi;}else { if ( 126           != code[270+ ti]){o[   oi] = code[
 270+ti]-1;++oi;}} ++ti;}}     void u(){while(!ef) {++fc;memcpy(p, o
-,2010 );    for     (inti=0 ;i<100; ++i){if(s[i*2+1] > 0) {p[(s[i*2
+,2010 );    for     (int i=0 ;i<100; ++i){if(s[i*2+1] >0) {p[(s[i*2
 +1]- 1)      *       101+s[i*2]] = 42;++s[i*2+1];}}if(sf) { long rs
 =fc*123L            +fc*r;sp = 100 == sp ? 0 : sp;for(int i=0; i<10
 ;i++){r=(         ((rs = rs * 214013L + 2531011L) >> 16) & 0x7fff);
